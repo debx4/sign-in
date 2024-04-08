@@ -1,0 +1,130 @@
+body{
+
+  align-items:center;
+  min-height:100vh;
+  background-color:rgb(10, 10, 33) ;
+  background-size:cover;
+  background-position:center;
+}
+
+  h1, h2 {
+    margin-bottom: 15px;
+    color:white;
+  }
+  
+  #ask-question {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #question-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #question {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #questions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:rgb(236, 82, 11);
+  }
+  
+  .question {
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+
+  #question{
+    border-radius:10px;
+  }
+
+  textarea::placeholder{
+    color:black;
+    font-size:larger;
+  }
+  
+  .question-title {
+    font-weight: bold;
+  }
+  
+  .comments {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+  }
+  
+  .comment {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+  }
+  
+  label{
+    color:white;
+  }
+
+  #ok{
+    height:30px;
+    width:250px;
+    margin-left:590px;
+    color:black;
+    font-weight:bold;
+  }
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .comment-actions {
+    margin-top: 5px;
+  }
+  
+  .like-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #comment-text {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #comment-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+ img{
+    width: 150px;
+    height: 150px;
+}
+  p{
+    color: #ddd;
+  }
+  

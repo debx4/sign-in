@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q&A section</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <section id="about">
+      <div class="container">
+          <h2>About Me</h2>
+          <p>Welcome to my portfolio! Let's explore and dive into the deep depths of the coding world.</p>
+         <img src="https://i.ibb.co/ChLwr5x/Untitled-design.jpg" alt="user's photo in the black dress" border="0"></a>
+  </section>
+  
+    
+    <h2>Contact</h2>
+    <p>If you're interested in working together, feel free to reach out to me!</p>
+    <a href="dibyasmitajena2004@gmail.com">Email Me</a>
+
+
+    <h1>Q&A Section</h1>
+
+    <div id="ask-question">
+      <h2>Ask a Question</h2>
+      <form id="question-form">
+        <label for="question">Question:</label>
+        <textarea
+          rows="10"
+          id="question"
+          name="question"
+          placeholder="Enter your question here"
+        ></textarea>
+        <button type="submit" id="ok">Submit Question</button>
+      </form><div class="comments-section">
+        <h2>Comments</h2>
+        <div class="comments">
+          <div class="comment">
+            <p class="comment-text">This is the first comment.</p>
+            <div class="comment-actions">
+              <button class="like-btn">Like</button>
+              <span class="likes-count">0</span>
+            </div>
+          </div>
+          
+        </div>
+      
+        
+        <form id="comment-form">
+          <textarea id="comment-text" placeholder="Add a comment"></textarea>
+          <button type="submit">Post Comment</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="questions-container"></div>
+    
+   
+    <script src="script.js"></script>
+  </body>
+</html>
